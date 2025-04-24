@@ -1,0 +1,55 @@
+.h_header {
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 5px;
+}
+.header_uno {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    align-content: start;
+}
+.header_uno img {
+    width: 90%;
+}
+
+.header1_section {
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+.header1_section h2 {
+    margin: 0px;
+    font-family: "Roboto Slab";
+    font-size: 30px;
+}
+.header1_section h3 {
+    margin-top: 5px;
+    font-family: "Roboto Slab";
+    font-size: 18px;
+}
+
+.header1_section footer {
+    margin-top: 7px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.header1_section img {
+    width: 25px;
+}
+
+.header_separador {
+    height: 5px;
+    width: 100%;
+    background: #ffffff;
+    background: oklch (100% 0 0);
+}
