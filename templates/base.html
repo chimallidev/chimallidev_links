@@ -16,11 +16,15 @@
     </head>
     <body class="container">
         <section class="nav_bar">
+            {% include "/components/nav_bar.html" %}
 
         </section>
+
         <section class="content">
-
+            {% block content %}
+            {% endblock %}
         </section>
+        
         <section class="foot">
 
         </section>

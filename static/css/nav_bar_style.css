@@ -1,0 +1,28 @@
+.a {
+    background: #03989e;
+    background: oklch(61.79% 0.1046 199.77);
+    font-size: 18px;
+    padding-inline-start: 30px;
+    padding-top: 1px;
+    padding-bottom: 1px; 
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+    animation: enhance-header linear both;
+    animation-timeline: scroll(root);
+    animation-range: 0 300px;
+}
+
+@keyframes enhance-header {
+    to{
+        backdrop-filter: blur(5px);
+        background: oklch(61.79% 0.1046 199.77 / 55%); 
+
+    }
+}
