@@ -1,3 +1,6 @@
+a {
+    text-decoration: none;
+}
 .links_l {
     display: flex;
     flex-direction: column;
@@ -18,7 +21,7 @@
     box-shadow 100ms linear(0 0%, 0.02 23.25%, 0.09 41.64%, 0.17 57.81%, 0.27 68.84%, 0.96 86.49%, 1 100%);
 
 }
-.links_l .btn_links:first-child{
+.links_l a:first-child .btn_links{
     border-width: 5px;
     border-style: solid;
     border-color: #03989e;
@@ -28,7 +31,7 @@
     scale 500ms linear,
     box-shadow 700ms linear(0 0%, 0.02 23.25%, 0.09 41.64%, 0.17 57.81%, 0.27 68.84%, 0.96 86.49%, 1 100%);
 }
-.links_l .btn_links:first-child:hover {
+.links_l a:first-child .btn_links:hover {
     border-width: 5px;
     border-style: solid;
     border-color: #ffffff;

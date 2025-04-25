@@ -1,0 +1,11 @@
+{% macro  card(card_enlace, card_img_titulo, card_alt, card_img, card_descripcion) %}
+<a class="card" href= "{{card_enlace}}"
+target="_blank">
+    <div>
+        <img title= "{{card_img_titulo}}"
+        alt= "{{card_alt}}"
+        src= "{{card_img}}" >
+    </div>
+    <p> {{card_descripcion}} </p>         
+</a>
+{% endmacro %}
