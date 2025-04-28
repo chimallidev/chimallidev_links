@@ -1,0 +1,16 @@
+{% macro button(btn_type, btn_enlace, btn_target, btn_img, btn_alt, btn_strong, btn_small) %}
+
+<link rel="stylesheet" href="/static/css/button_style.css">
+
+<a href="{{btn_enlace}}" target="{{btn_target}}">
+    <button class="{{btn_type}}">
+        <img src="{{btn_img}}" 
+        alt="{{btn_alt}}">
+        <div>
+            <strong>{{btn_strong}}</strong>
+            <small>{{btn_small}}</small>
+        </div>
+    </button>
+</a>
+
+{% endmacro %}

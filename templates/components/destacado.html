@@ -1,12 +1,27 @@
 {% import "/components/card.html" as comp %}
 
+<link rel="stylesheet" href="/static/css/destacado_style.css">
+
 <section class="destacados">
     <Header>
         <h2>Destacado</h2>
     </Header>
     <section class="cards_destacados">
-        {{ comp.card("https://solucionint.com/", "Página web de solucionint", "Carta con enlace a la pagina web de 
-        solucionint", "/static/img/icons/android.svg", "Sitio web de artículos de divulgación científica
-        sobre ejercicio y habitos saludables.") }}
+        {{ comp.card(
+        "https://solucionint.com/", 
+        "Página web de solucionint", 
+        "Carta con enlace a la pagina web de solucionint", 
+        "/static/img/logo_solucionint.avif", 
+        "Sitio web de artículos de divulgación científica
+        sobre ejercicio y habitos saludables."
+        ) }}
+
+        {{ comp.card(
+        "https://play.google.com/store/apps/details?id=com.chimallidigital.solucionint&pcampaignid=web_share", 
+        "Aplicación de solucionint", 
+        "Carta con enlace a la aplicación de solucionint en la playstore", 
+        "/static/img/icons/android.svg", 
+        "App: solucionint"
+        ) }}
     </section>
 </section>

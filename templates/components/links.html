@@ -1,54 +1,51 @@
+{% import "/components/button.html" as comp %}
+
 <link rel="stylesheet" href="/static/css/links_style.css">
 <section class="links_l">
-    <a href="https://x.com/" target="_blank">
-        <button class="btn_links">
-            <img src="/static/img/icons/code.svg" 
-            alt="Boton de cursos">
-            <div>
-                <strong>Cursos</strong>
-                <small>Recursos gratis de programación</small>
-            </div>
-        </button>
-    </a>
-    <a href="https://x.com/" target="_blank">
-        <button class="btn_links">
-            <img src="/static/img/icons/youtube.svg" 
-            alt="Boton de youtube">
-            <div>
-                <strong>YouTube</strong>
-                <small>Videos sobre programación</small>
-            </div>
-        </button>
-    </a>
-    <a href="https://x.com/" target="_blank">
-        <button class="btn_links">
-            <img src="/static/img/icons/tik tok.svg" 
-            alt="Boton de tik tok">
-            <div>
-                <strong>Tik Tok</strong>
-                <small>Videos cortos de programación</small>
-            </div>
-        </button>
-    </a>
-    <a href="https://x.com/" target="_blank">
-        <button class="btn_links">
-            <img src="/static/img/icons/instagram.svg" 
-            alt="Boton de instagram">
-            <div>
-                <strong>Instagram</strong>
-                <small>Mi día a día como programador</small>
-            </div>
-        </button>
-    </a>
+    {{ comp.button(
+        "btn_uno",
+        "https://x.com/",
+        "_self",
+        "/static/img/icons/code.svg",
+        "Boton de cursos",
+        "Cursos",
+        "Recursos gratis de programación"
+    ) }}
+    {{ comp.button(
+        "btn_links",
+        "https://x.com/",
+        "_blank",
+        "/static/img/icons/youtube.svg",
+        "Boton de youtube",
+        "YouTube",
+        "Videos sobre programación"
+    ) }}
+    {{ comp.button(
+        "btn_links",
+        "https://x.com/",
+        "_blank",
+        "/static/img/icons/tik tok.svg",
+        "Boton de tik tok",
+        "Tik Tok",
+        "Videos cortos de programación"
+    ) }}
+    {{ comp.button(
+        "btn_links",
+        "https://x.com/",
+        "_blank",
+        "/static/img/icons/instagram.svg",
+        "Boton de instagram",
+        "Instagram",
+        "Mi día a día como programador"
+    ) }}
     <div class="btn_separador"></div>
-    <a href="https://x.com/" target="_blank">
-        <button class="btn_links">
-            <img src="/static/img/icons/coffee.svg" 
-            alt="Boton para donar/invitar un cafe a Chimallidev">
-            <div>
-                <strong>Invítame un café</strong>
-                <small>¿Quieres apoyarme?</small>
-            </div>
-        </button>
-    </a>
+    {{ comp.button(
+        "btn_links",
+        "https://x.com/",
+        "_blank",
+        "/static/img/icons/coffee.svg",
+        "Boton para donar/invitar un cafe a Chimallidev",
+        "Invítame un café",
+        "¿Quieres apoyarme?"
+    ) }}
 </section>
