@@ -45,14 +45,12 @@ p{
     grid-area: con;
     padding-left: 10px;
     padding-right: 10px;
-    width: 100%;
     margin: 0;
 }
 
 .foot{
     grid-area: footer;
     margin:0;
-    width: 100%;
 }
 
 @keyframes enhance-header {

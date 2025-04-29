@@ -13,22 +13,22 @@
 
 }
 
-img {
+.btn_links img {
     width: 45px;
     padding: 10px;
+    padding-left: 30px;
 }
 
-div {
-    padding-top: 5px;
-    padding-bottom: 5px;
+.btn_links div {
+    
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: 10px;
-    gap:5px;
+    padding-left: 25px;
+    gap: 10px;
 }
 
-strong {
+.btn_links strong {
     color: #ffffff;
     color: oklch (100% 0 0);
     font-family: "Roboto Slab";
@@ -36,7 +36,7 @@ strong {
     font-weight: 500;
 }
 
-small {
+.btn_links small {
     color: #ffffff;
     color: oklch (100% 0 0);
     font-family: "Roboto Mono";
@@ -54,6 +54,37 @@ small {
 .btn_separador{
     height: 15px;
 }
+
+.btn_uno img {
+    width: 45px;
+    padding: 10px;
+    padding-left: 30px;
+}
+
+.btn_uno div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 25px;
+    gap: 10px;
+}
+
+.btn_uno strong {
+    color: #ffffff;
+    color: oklch (100% 0 0);
+    font-family: "Roboto Slab";
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.btn_uno small {
+    color: #ffffff;
+    color: oklch (100% 0 0);
+    font-family: "Roboto Mono";
+    font-size: 20px;
+    text-align: left;
+}
+
 .btn_uno{
     display: flex;
     flex-direction: row;
