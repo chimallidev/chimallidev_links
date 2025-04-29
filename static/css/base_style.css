@@ -1,5 +1,30 @@
+@font-face{
+    font-family: "Roboto Slab";
+    src: url("/static/fonts/RobotoSlab-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face{
+    font-family: "Roboto Mono";
+    src: url("/static/fonts/RobotoMono-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
 p{
     text-align: left;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-family: "Roboto Slab";
 }
 .container {
     background: #000000;
@@ -7,7 +32,8 @@ p{
     color: #ffffff;
     color: oklch(100% 0 0);
     margin: 0;
-    font-size: 20px;
+    font-size: 18px;
+    font-family: Roboto Mono;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 50px 1fr 300px;
@@ -39,6 +65,17 @@ p{
     animation: enhance-header linear both;
     animation-timeline: scroll(root);
     animation-range: 0 300px;
+}
+
+.nav_bar a{
+    text-decoration: none;
+    color: #ffffff;
+    color: oklch(100% 0 0);
+}
+
+.nav_bar a:hover{
+    color: #ffffff;
+    color: oklch(100% 0 0);
 }
 
 .content {

@@ -26,3 +26,18 @@ async def home(request: Request):
     except:
         raise HTTPException(status_code = status.HTTP_404_NOT_FOUND, 
                             detail = "La página no ha sido encontrada")
+
+@app.get("/cursos", response_class = HTMLResponse, status_code= status.HTTP_200_OK)
+async def cursos(request: Request):
+    context= {
+        "request": request,
+        "pagina_titulo": utils.cursos_title,
+        "meta_descripcion": utils.cursos_meta_description
+    }
+
+    try: 
+        return templates.TemplateResponse("cursos.html", context)
+    
+    except:
+        raise HTTPException(status_code = status.HTTP_404_NOT_FOUND,
+                            detail = "La página no ha sido encontrada")

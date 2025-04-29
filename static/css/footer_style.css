@@ -1,0 +1,27 @@
+.pie_de_pagina {
+    grid-area: foot;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+
+.pie_de_pagina img {
+    width: 12%;
+}
+
+.pie_de_pagina a{
+    color: #ffffff;
+    color: oklch (100% 0 0);
+}
+
+.pie_de_pagina a:hover {
+    color: #03989e;
+    color: oklch(61.79% 0.1046 199.77);
+}
+.s_pie_pagina {
+    color: #03989e;
+    color: oklch(61.79% 0.1046 199.77);
+}

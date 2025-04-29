@@ -7,6 +7,12 @@
     align-content: flex-start;
     gap: 5px;
 }
+
+.h_header h3 {
+    color: #03989e;
+    color: oklch(61.79% 0.1046 199.77);
+}
+
 .header_uno {
     width: 100%;
     display: grid;
