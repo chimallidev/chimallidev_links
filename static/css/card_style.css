@@ -11,7 +11,7 @@ a:hover {
     color: #03989e;
 }
 .card {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     border-radius: 7px;
