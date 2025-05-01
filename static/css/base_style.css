@@ -80,8 +80,8 @@ h2 {
 
 .content {
     grid-area: con;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0;
 }
 
