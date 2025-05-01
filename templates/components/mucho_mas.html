@@ -1,0 +1,18 @@
+{% import "/components/button.html" as comp %}
+
+<link rel="stylesheet" href="/static/css/mucho_mas_style.css">
+
+<section class="mucho_mas">
+    <header>
+        <h2>Mucho más en</h2>
+    </header>
+    {{ comp.button(
+        "btn_links",
+        "https://youtube.com",
+        "_blank",
+        "/static/img/icons/python.svg",
+        "Boton a cursos de youtube",
+        "Youtube",
+        "Videos sobre programación"
+    ) }}
+</section>

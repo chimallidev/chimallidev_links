@@ -1,0 +1,6 @@
+.mucho_mas {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-top: 30px;
+}
