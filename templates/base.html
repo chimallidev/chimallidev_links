@@ -8,6 +8,11 @@
         <title>{{pagina_titulo}}</title>
         <meta name="description" content={{meta_descripcion}}>
 
+        <!-- favicon -->
+
+        <link rel="icon" href="{{ url_for('static', path='/img/icons/favicon.ico') }}"
+        type="image/x-icon">
+
         <!-- Hoja de estilos -->
         {% block stylesheet %}
         <link rel="stylesheet" href="/static/css/base_style.css">
